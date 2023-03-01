@@ -1,12 +1,20 @@
 ﻿h1{
     font-size: 1.25em;
 }
+
+
+body {
+    background-color: #032DA4;
+    color: white;
+    margin: 1%;
+}
 table {
     table-layout: auto;
     width: 100%;
     border-collapse: collapse;
     /*border: 3px solid purple;*/
 }
+
 thead th:nth-child(1) {
     width: 25%;
     text-align: left;
@@ -15,11 +23,6 @@ thead th:nth-child(1) {
 thead th:nth-child(2) {
     width: 75%;
     text-align: left;
-}
-
-body {
-    background-color: #032DA4;
-    color: white;
 }
 a { 
     color: white;
