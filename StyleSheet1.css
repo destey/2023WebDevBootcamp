@@ -17,8 +17,25 @@ thead th:nth-child(2) {
     text-align: left;
 }
 
-body
-{
+body {
+    background-color: #032DA4;
+    color: white;
+}
+a { 
+    color: white;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: lightgreen;
+}
+a:hover {
+    background-color: deeppink;
+    color: white;
+}
+a:active {
+    color: deepskyblue;
 }
 
 .bold {
