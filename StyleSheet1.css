@@ -1,0 +1,29 @@
+﻿h1{
+    font-size: 1.25em;
+}
+table {
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    /*border: 3px solid purple;*/
+}
+thead th:nth-child(1) {
+    width: 25%;
+    text-align: left;
+}
+
+thead th:nth-child(2) {
+    width: 75%;
+    text-align: left;
+}
+
+body
+{
+}
+
+.bold {
+    font-weight: bold;
+}
+.red {
+    color: red;
+}

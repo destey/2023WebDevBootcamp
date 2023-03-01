@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>Fictional address</p>
+    <p>Fictional phone number</p>
+    <p><a href="mailto:destey@admin.nv.gov">destey@admin.nv.gov</a></p>
+   
+    <hr />
+    <form class="" action="mailto:destey@admin.nv.gov" method="post" enctype="text/plain">
+        <!-- with a method value of "post" and action set to index.html the submit button will just take a user back to the homepage. By changing the action to a "mailto" it will open the default email and enter the email address you specify. -->
+        <label>Your name:</label>
+        <input type="text" name="name" value="" /><br />
+        <label>Your Email</label>
+        <input type="text" name="email" value="" /><br />
+        <p><!-- some basic validation comes with using the email--></p>
+        <label>Do you want to sign up to the email list?</label>
+        <input type="checkbox" name="checkbox" value="" /><br />
+        <label>Your Message:</label>
+        <textarea name="message" rows="10" cols="30"></textarea><br />
+        <!-- the rows determines how tall the text area is and the cols determines how wide the text area should be -->
+        <input type="submit" name="" />
+    </form>
+
+</body>
+</html>
